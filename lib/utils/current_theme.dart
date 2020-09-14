@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CurrentTheme {
-  Color _black = Colors.black;
+  Color _black = Color(0xFF171717);
   Color _lightGrey = Color.fromARGB(255, 164, 164, 164);
 
   ThemeData buildTheme() {
