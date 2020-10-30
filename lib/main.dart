@@ -1,17 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:tadas_petra/screens/home.dart';
-import 'package:tadas_petra/utils/current_theme.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+
+import 'app.dart';
 
 void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Home(),
-      theme: CurrentTheme().buildTheme(),
-    );
-  }
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(ProviderScope(child: App())); // needed for providers to work
 }

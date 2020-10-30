@@ -4,11 +4,11 @@ class MyPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     //draw triangle
-    Paint linePaint = Paint()
+    final Paint linePaint = Paint()
       ..strokeWidth = 10
       ..style = PaintingStyle.fill
       ..color = Colors.grey;
-    Path path = Path();
+    final Path path = Path();
     path.lineTo(300, 0);
     path.lineTo(0, 300);
     path.close();
