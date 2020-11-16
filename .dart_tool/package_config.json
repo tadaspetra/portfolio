@@ -3,13 +3,13 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-11.0.0",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-12.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/analyzer-0.40.4",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/analyzer-0.40.6",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
@@ -51,13 +51,13 @@
     },
     {
       "name": "build_resolvers",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build_resolvers-1.4.1",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build_resolvers-1.4.3",
       "packageUri": "lib/",
       "languageVersion": "2.9"
     },
     {
       "name": "build_runner",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build_runner-1.10.3",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build_runner-1.10.4",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
@@ -147,7 +147,7 @@
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/dart_style-1.3.7",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/dart_style-1.3.9",
       "packageUri": "lib/",
       "languageVersion": "2.9"
     },
@@ -177,7 +177,7 @@
     },
     {
       "name": "flutter_riverpod",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/flutter_riverpod-0.11.2",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/flutter_riverpod-0.12.1",
       "packageUri": "lib/",
       "languageVersion": "2.8"
     },
@@ -219,13 +219,13 @@
     },
     {
       "name": "hooks_riverpod",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/hooks_riverpod-0.11.2",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/hooks_riverpod-0.12.1",
       "packageUri": "lib/",
       "languageVersion": "2.8"
     },
     {
       "name": "html",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/html-0.14.0+4",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/html-0.14.0+3",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
@@ -291,9 +291,9 @@
     },
     {
       "name": "node_interop",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/node_interop-1.1.1",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/node_interop-1.2.0",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.9"
     },
     {
       "name": "node_io",
@@ -320,8 +320,14 @@
       "languageVersion": "2.1"
     },
     {
+      "name": "platform_detect",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/platform_detect-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.4"
+    },
+    {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.3",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
@@ -345,13 +351,13 @@
     },
     {
       "name": "quiver",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.3",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "riverpod",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/riverpod-0.11.2",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/riverpod-0.12.1",
       "packageUri": "lib/",
       "languageVersion": "2.8"
     },
@@ -375,9 +381,9 @@
     },
     {
       "name": "source_gen",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/source_gen-0.9.7+1",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/source_gen-0.9.8",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.10"
     },
     {
       "name": "source_span",
@@ -453,7 +459,7 @@
     },
     {
       "name": "url_launcher",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.5",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.5.0",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
@@ -465,27 +471,21 @@
     },
     {
       "name": "url_launcher_macos",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+8",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+7",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "url_launcher_platform_interface",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.8",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.7",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "url_launcher_web",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.4+1",
+      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.2"
-    },
-    {
-      "name": "url_launcher_windows",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
     },
     {
       "name": "vector_math",
@@ -524,7 +524,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-11-05T22:37:13.113632Z",
+  "generated": "2020-11-16T01:02:20.323216Z",
   "generator": "pub",
   "generatorVersion": "2.11.0-213.1.beta"
 }
