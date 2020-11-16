@@ -28,12 +28,11 @@ class ControlPage extends HookWidget {
     final navigation = useProvider(navigationProvider);
     return LayoutBuilder(
       builder: (BuildContext context, BoxConstraints constraints) {
-        //800, 1400, else
         if (constraints.maxWidth < 800) {
           return Scaffold(
             key: _homeScaffoldKey,
             body: buildStack(context, navigation, WindowSize.small),
-            endDrawer: Drawer(),
+            endDrawer: const Drawer(),
           );
         } else if (constraints.maxWidth < 1400) {
           return Scaffold(

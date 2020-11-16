@@ -10,11 +10,11 @@ class _HomePageState extends State<HomePage> {
   Color twitterColor = Colors.grey;
 
   Future<void> _launchTwitter() async {
-    const url = 'https://twitter.com/tadaspetra';
+    const url = "https://twitter.com/tadaspetra";
     if (await canLaunch(url)) {
       await launch(url);
     } else {
-      throw 'Could not launch $url';
+      throw "Can't launch";
     }
   }
 
@@ -22,10 +22,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const Text("My name is Tadas Petra"),
-        const SizedBox(height: 20),
         const SelectableText("My name is Tadas Petra"),
-        const SizedBox(height: 20),
+        const SizedBox(
+          height: 20,
+        ),
         MouseRegion(
           onEnter: (_) {
             twitterColor = Colors.white;
@@ -60,7 +60,6 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ),
-        SizedBox()
       ],
     );
   }
