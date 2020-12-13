@@ -1,10 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/pages/about.dart';
-import 'package:portfolio/pages/consulting.dart';
-import 'package:portfolio/pages/contact.dart';
-import 'package:portfolio/pages/error.dart';
-import 'package:portfolio/pages/home.dart';
-import 'package:portfolio/pages/portfolio.dart';
 
 import '../painter.dart';
 
@@ -52,28 +46,32 @@ class ControlPage extends StatelessWidget {
         Image.asset(
           'assets/images/tplogo.png',
           color: Colors.white,
-          width: 180,
+          width: 120,
         ),
-        Positioned(
-          top: 50,
-          right: 100,
-          child: () {
-            if (size != WindowSize.small) {
-              return buildNavBar(context);
-            } else {
-              return IconButton(
+        () {
+          if (size != WindowSize.small) {
+            return Positioned(
+              top: 50,
+              right: 100,
+              child: buildNavBar(context),
+            );
+          } else {
+            return Positioned(
+              top: 20,
+              right: 20,
+              child: IconButton(
                 icon: const Icon(Icons.menu),
                 color: Colors.white,
                 onPressed: () {
                   _homeScaffoldKey.currentState.openEndDrawer();
                 },
-              );
-            }
-          }(),
-        ),
+              ),
+            );
+          }
+        }(),
         Positioned(
-          top: 200,
-          left: 200,
+          top: 120,
+          left: 120,
           child: whichPage,
         )
       ],
