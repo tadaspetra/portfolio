@@ -20,12 +20,10 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Row(
       children: [
-        const SelectableText("My name is Tadas Petra"),
-        const SizedBox(
-          height: 20,
-        ),
+        const SelectableText(
+            "This is still a work in progress, but if you want updates:"),
         MouseRegion(
           onEnter: (_) {
             twitterColor = Colors.white;
@@ -38,7 +36,7 @@ class _HomePageState extends State<HomePage> {
           child: Row(
             children: [
               IconButton(
-                iconSize: 100,
+                iconSize: 30,
                 icon: SizedBox(
                   width: 100,
                   child: Image.asset(
@@ -53,7 +51,6 @@ class _HomePageState extends State<HomePage> {
                 "Follow Me",
                 style: TextStyle(
                   fontSize: 24.0,
-                  fontWeight: FontWeight.bold,
                   color: twitterColor,
                 ),
               ),
