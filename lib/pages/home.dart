@@ -20,10 +20,10 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Column(
       children: [
         const SelectableText(
-            "This is still a work in progress, but if you want updates:"),
+            "This is a work in progress, but if you want updates:"),
         MouseRegion(
           onEnter: (_) {
             twitterColor = Colors.white;

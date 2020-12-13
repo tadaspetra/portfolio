@@ -9,8 +9,8 @@ class MyPainter extends CustomPainter {
       ..style = PaintingStyle.fill
       ..color = Colors.grey;
     final Path path = Path();
-    path.lineTo(300, 0);
-    path.lineTo(0, 300);
+    path.lineTo(200, 0);
+    path.lineTo(0, 200);
     path.close();
     canvas.drawPath(path, linePaint);
   }
