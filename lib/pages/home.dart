@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
     return Column(
       children: [
         const SelectableText(
-            "This is a work in progress, but if you want updates:"),
+            "       This is a work in progress,\n\n        but if you want updates:\n"),
         MouseRegion(
           onEnter: (_) {
             twitterColor = Colors.white;
