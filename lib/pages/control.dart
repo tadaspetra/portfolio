@@ -1,54 +1,45 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:portfolio/domain/navigation/navigation.dart';
-import 'package:portfolio/domain/navigation/navigation_state.dart';
 import 'package:portfolio/pages/about.dart';
 import 'package:portfolio/pages/consulting.dart';
 import 'package:portfolio/pages/contact.dart';
 import 'package:portfolio/pages/error.dart';
 import 'package:portfolio/pages/home.dart';
 import 'package:portfolio/pages/portfolio.dart';
-import 'package:portfolio/providers/navigation_provider.dart';
 
 import '../painter.dart';
 
 enum WindowSize { small, medium, large }
 
-class ControlPage extends HookWidget {
-  ControlPage();
-
-  static Route get route =>
-      MaterialPageRoute<void>(builder: (_) => ControlPage());
+class ControlPage extends StatelessWidget {
+  final Widget whichPage;
+  ControlPage({@required this.whichPage});
 
   final GlobalKey<ScaffoldState> _homeScaffoldKey = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
-    final navigation = useProvider(navigationProvider);
     return LayoutBuilder(
       builder: (BuildContext context, BoxConstraints constraints) {
         if (constraints.maxWidth < 800) {
           return Scaffold(
             key: _homeScaffoldKey,
-            body: buildStack(context, navigation, WindowSize.small),
+            body: buildStack(context, WindowSize.small),
             endDrawer: const Drawer(),
           );
         } else if (constraints.maxWidth < 1400) {
           return Scaffold(
-            body: buildStack(context, navigation, WindowSize.medium),
+            body: buildStack(context, WindowSize.medium),
           );
         } else {
           return Scaffold(
-            body: buildStack(context, navigation, WindowSize.large),
+            body: buildStack(context, WindowSize.large),
           );
         }
       },
     );
   }
 
-  Stack buildStack(
-      BuildContext context, NavigationState navigation, WindowSize size) {
+  Stack buildStack(BuildContext context, WindowSize size) {
     return Stack(
       children: [
         SizedBox(
@@ -68,7 +59,7 @@ class ControlPage extends HookWidget {
           right: 100,
           child: () {
             if (size != WindowSize.small) {
-              return buildNavBar(context, size);
+              return buildNavBar(context);
             } else {
               return IconButton(
                 icon: const Icon(Icons.menu),
@@ -83,111 +74,53 @@ class ControlPage extends HookWidget {
         Positioned(
           top: 200,
           left: 200,
-          child: navigation.maybeWhen(
-            home: () => HomePage(),
-            portfolio: () => PortfolioPage(),
-            consulting: () => ConsultingPage(),
-            about: () => AboutPage(),
-            contact: () => ContactPage(),
-            error: (err) => const ErrorPage(),
-            orElse: () => HomePage(),
-          ),
+          child: whichPage,
         )
       ],
     );
   }
 
-  Row buildNavBar(BuildContext context, WindowSize size) {
-    switch (size) {
-      case WindowSize.small:
-        return Row(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: [
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.home;
-              },
-              child: const Text("Home"),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.portfolio;
-              },
-              child: const Text("Portfolio"),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.consulting;
-              },
-              child: const Text("Consulting"),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.about;
-              },
-              child: const Text("About"),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.contact;
-              },
-              child: const Text("Contact"),
-            ),
-          ],
-        );
-        break;
-      case WindowSize.medium:
-      case WindowSize.large:
-        return Row(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: [
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.home;
-              },
-              child: const Text("Home"),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.portfolio;
-              },
-              child: const Text("Portfolio"),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.consulting;
-              },
-              child: const Text("Consulting"),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.about;
-              },
-              child: const Text("About"),
-            ),
-            const SizedBox(width: 20),
-            GestureDetector(
-              onTap: () {
-                context.read(currentPageProvider).state = Pages.contact;
-              },
-              child: const Text("Contact"),
-            ),
-          ],
-        );
-        break;
-      default:
-        return Row(
-          children: [
-            const Text("error"),
-          ],
-        );
-    }
+  Row buildNavBar(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.end,
+      children: [
+        GestureDetector(
+          onTap: () {
+            //context.read(currentPageProvider).state = Pages.home;
+            Navigator.pushNamed(context, "/");
+          },
+          child: const Text("Home"),
+        ),
+        const SizedBox(width: 20),
+        GestureDetector(
+          onTap: () {
+            //context.read(currentPageProvider).state = Pages.portfolio;
+            Navigator.pushNamed(context, "/portfolio");
+          },
+          child: Text("Portfolio"),
+        ),
+        const SizedBox(width: 20),
+        GestureDetector(
+          onTap: () {
+            //context.read(currentPageProvider).state = Pages.consulting;
+          },
+          child: const Text("Consulting"),
+        ),
+        const SizedBox(width: 20),
+        GestureDetector(
+          onTap: () {
+            //context.read(currentPageProvider).state = Pages.about;
+          },
+          child: const Text("About"),
+        ),
+        const SizedBox(width: 20),
+        GestureDetector(
+          onTap: () {
+            //context.read(currentPageProvider).state = Pages.contact;
+          },
+          child: const Text("Contact"),
+        ),
+      ],
+    );
   }
 }
