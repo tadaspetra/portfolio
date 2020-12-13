@@ -1,0 +1,8 @@
+2020/12/12-20:35:56.671 21817 Reusing MANIFEST /private/var/folders/m7/y54p0c254wqb1fjcg3k__bjc0000gn/T/flutter_tools.uTXqJk/flutter_tools_chrome_device.LyVSYh/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/12-20:35:56.671 21817 Recovering log #7
+2020/12/12-20:35:56.671 21817 Reusing old log /private/var/folders/m7/y54p0c254wqb1fjcg3k__bjc0000gn/T/flutter_tools.uTXqJk/flutter_tools_chrome_device.LyVSYh/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000007.log 
+2020/12/12-20:36:30.031 27343 Level-0 table #11: started
+2020/12/12-20:36:30.031 27343 Level-0 table #11: 0 bytes OK
+2020/12/12-20:36:30.074 27343 Delete type=0 #7
+2020/12/12-20:36:30.075 27343 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/12-20:36:30.075 27343 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
