@@ -1,4 +1,7 @@
 import 'package:portfolio/config/current_theme.dart';
+import 'package:portfolio/pages/about.dart';
+import 'package:portfolio/pages/consulting.dart';
+import 'package:portfolio/pages/contact.dart';
 import 'package:portfolio/pages/control.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio/pages/home.dart';
@@ -24,6 +27,30 @@ class App extends StatelessWidget {
             return PageRouteBuilder<dynamic>(
               pageBuilder: (_, __, ___) => ControlPage(
                 whichPage: PortfolioPage(),
+              ),
+              settings: settings,
+            );
+            break;
+          case "/consulting":
+            return PageRouteBuilder<dynamic>(
+              pageBuilder: (_, __, ___) => ControlPage(
+                whichPage: ConsultingPage(),
+              ),
+              settings: settings,
+            );
+            break;
+          case "/about":
+            return PageRouteBuilder<dynamic>(
+              pageBuilder: (_, __, ___) => ControlPage(
+                whichPage: AboutPage(),
+              ),
+              settings: settings,
+            );
+            break;
+          case "/contact":
+            return PageRouteBuilder<dynamic>(
+              pageBuilder: (_, __, ___) => ControlPage(
+                whichPage: ContactPage(),
               ),
               settings: settings,
             );

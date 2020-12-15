@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ContactPage extends StatefulWidget {
+  static const routeName = '/contact';
   @override
   _ContactPageState createState() => _ContactPageState();
 }
@@ -14,7 +15,7 @@ class _ContactPageState extends State<ContactPage> {
   Color githubColor = Colors.grey;
 
   Future<void> _launchYoutube() async {
-    const url = 'https://youtube.com/amateurcoder';
+    const url = 'https://youtube.com/tadaspetra';
     if (await canLaunch(url)) {
       await launch(url);
     } else {

@@ -17,23 +17,52 @@ class ControlPage extends StatelessWidget {
         if (constraints.maxWidth < 800) {
           return Scaffold(
             key: _homeScaffoldKey,
-            body: buildStack(context, WindowSize.small),
+            body: buildThin(context),
             endDrawer: const Drawer(),
           );
         } else if (constraints.maxWidth < 1400) {
           return Scaffold(
-            body: buildStack(context, WindowSize.medium),
+            body: buildWide(context),
           );
         } else {
           return Scaffold(
-            body: buildStack(context, WindowSize.large),
+            body: buildWide(context),
           );
         }
       },
     );
   }
 
-  Stack buildStack(BuildContext context, WindowSize size) {
+  Column buildThin(BuildContext context) {
+    return Column(
+      children: [
+        Row(
+          children: [
+            SizedBox(
+              width: 24.0,
+            ),
+            Spacer(),
+            Image.asset(
+              'assets/images/tplogo.png',
+              color: Colors.white,
+              width: 120,
+            ),
+            Spacer(),
+            IconButton(
+              icon: const Icon(Icons.menu),
+              color: Colors.white,
+              onPressed: () {
+                _homeScaffoldKey.currentState.openEndDrawer();
+              },
+            ),
+          ],
+        ),
+        whichPage,
+      ],
+    );
+  }
+
+  Stack buildWide(BuildContext context) {
     return Stack(
       children: [
         SizedBox(
@@ -48,27 +77,24 @@ class ControlPage extends StatelessWidget {
           color: Colors.white,
           width: 120,
         ),
-        () {
-          if (size != WindowSize.small) {
-            return Positioned(
-              top: 50,
-              right: 100,
-              child: buildNavBar(context),
-            );
-          } else {
-            return Positioned(
-              top: 20,
-              right: 20,
-              child: IconButton(
-                icon: const Icon(Icons.menu),
-                color: Colors.white,
-                onPressed: () {
-                  _homeScaffoldKey.currentState.openEndDrawer();
-                },
-              ),
-            );
-          }
-        }(),
+        Positioned(
+          top: 50,
+          right: 100,
+          child: buildNavBar(context),
+        ),
+
+        // return Positioned(
+        //   top: 20,
+        //   right: 20,
+        //   child: IconButton(
+        //     icon: const Icon(Icons.menu),
+        //     color: Colors.white,
+        //     onPressed: () {
+        //       _homeScaffoldKey.currentState.openEndDrawer();
+        //     },
+        //   ),
+        // )
+
         Positioned(
           top: 120,
           left: 120,
@@ -79,45 +105,29 @@ class ControlPage extends StatelessWidget {
   }
 
   Row buildNavBar(BuildContext context) {
+    Widget eachTab(String text, String route) {
+      return GestureDetector(
+        onTap: () {
+          //context.read(currentPageProvider).state = Pages.contact;
+          Navigator.pushNamed(context, route);
+        },
+        child: Text(text),
+      );
+    }
+
     return Row(
       mainAxisAlignment: MainAxisAlignment.end,
       children: [
-        GestureDetector(
-          onTap: () {
-            //context.read(currentPageProvider).state = Pages.home;
-            Navigator.pushNamed(context, "/");
-          },
-          child: const Text("Home"),
-        ),
         const SizedBox(width: 20),
-        GestureDetector(
-          onTap: () {
-            //context.read(currentPageProvider).state = Pages.portfolio;
-            Navigator.pushNamed(context, "/portfolio");
-          },
-          child: Text("Portfolio"),
-        ),
+        eachTab("Home", "/"),
         const SizedBox(width: 20),
-        GestureDetector(
-          onTap: () {
-            //context.read(currentPageProvider).state = Pages.consulting;
-          },
-          child: const Text("Consulting"),
-        ),
+        eachTab("Portfolio", "/portfolio"),
         const SizedBox(width: 20),
-        GestureDetector(
-          onTap: () {
-            //context.read(currentPageProvider).state = Pages.about;
-          },
-          child: const Text("About"),
-        ),
+        eachTab("Consulting", "/consulting"),
         const SizedBox(width: 20),
-        GestureDetector(
-          onTap: () {
-            //context.read(currentPageProvider).state = Pages.contact;
-          },
-          child: const Text("Contact"),
-        ),
+        eachTab("About", "/about"),
+        const SizedBox(width: 20),
+        eachTab("Contact", "/contact")
       ],
     );
   }
