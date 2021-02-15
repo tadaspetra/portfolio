@@ -3,487 +3,487 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-12.0.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-12.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/analyzer-0.40.6",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.40.6",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "args",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/args-1.6.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/args-1.6.0",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "async",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "boolean_selector",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "build",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build-1.5.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/build-1.5.0",
       "packageUri": "lib/",
       "languageVersion": "2.9"
     },
     {
       "name": "build_config",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build_config-0.4.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/build_config-0.4.2",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
     {
       "name": "build_daemon",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build_daemon-2.1.4",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/build_daemon-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
     {
       "name": "build_resolvers",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build_resolvers-1.4.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/build_resolvers-1.4.3",
       "packageUri": "lib/",
       "languageVersion": "2.9"
     },
     {
       "name": "build_runner",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build_runner-1.10.4",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/build_runner-1.10.4",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "build_runner_core",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/build_runner_core-6.0.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/build_runner_core-6.0.3",
       "packageUri": "lib/",
       "languageVersion": "2.9"
     },
     {
       "name": "built_collection",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/built_collection-4.3.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/built_collection-4.3.2",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
     {
       "name": "built_value",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/built_value-7.1.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/built_value-7.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "characters",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.3",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "charcode",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.2.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "checked_yaml",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/checked_yaml-1.0.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/checked_yaml-1.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "cli_util",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/cli_util-0.2.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/cli_util-0.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "clock",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/clock-1.1.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "code_builder",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/code_builder-3.5.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/code_builder-3.5.0",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.3",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "convert",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "1.17"
     },
     {
       "name": "crypto",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "csslib",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/csslib-0.16.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/csslib-0.16.2",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/dart_style-1.3.9",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/dart_style-1.3.9",
       "packageUri": "lib/",
       "languageVersion": "2.9"
     },
     {
       "name": "fake_async",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "fixnum",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/fixnum-0.10.11",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-0.10.11",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/tadaspetraitis/resources/Support/flutter/packages/flutter",
+      "rootUri": "file:///C:/Coding/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/tadaspetraitis/resources/Support/flutter/packages/flutter_test",
+      "rootUri": "file:///C:/Coding/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "2.2"
+      "languageVersion": "2.10"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///Users/tadaspetraitis/resources/Support/flutter/packages/flutter_web_plugins",
+      "rootUri": "file:///C:/Coding/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "freezed",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/freezed-0.12.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/freezed-0.12.2",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "freezed_annotation",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/freezed_annotation-0.12.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/freezed_annotation-0.12.0",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "glob",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/glob-1.2.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/glob-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "graphs",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/graphs-0.2.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/graphs-0.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "html",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/html-0.14.0+3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/html-0.14.0+3",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "http_multi_server",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/http_multi_server-2.2.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/http_multi_server-2.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "http_parser",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "io",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/io-0.3.4",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/io-0.3.4",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "js",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/js-0.6.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3-nullsafety.1",
       "packageUri": "lib/",
-      "languageVersion": "2.0"
+      "languageVersion": "2.10"
     },
     {
       "name": "json_annotation",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/json_annotation-3.1.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/json_annotation-3.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "lint",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/lint-1.3.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/lint-1.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.9"
     },
     {
       "name": "logging",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/logging-0.11.4",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/logging-0.11.4",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.3.0-nullsafety.4",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "mime",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/mime-0.9.7",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/mime-0.9.7",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "node_interop",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/node_interop-1.2.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/node_interop-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.9"
     },
     {
       "name": "node_io",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/node_io-1.1.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/node_io-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "package_config",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/package_config-1.9.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/package_config-1.9.3",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/path-1.8.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "pedantic",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "platform_detect",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/platform_detect-1.4.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/platform_detect-1.4.0",
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "pool",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/pool-1.4.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/pool-1.4.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "pub_semver",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/pub_semver-1.4.4",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/pub_semver-1.4.4",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "pubspec_parse",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/pubspec_parse-0.1.5",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/pubspec_parse-0.1.5",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "quiver",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.5",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "shelf",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/shelf-0.7.9",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/shelf-0.7.9",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "shelf_web_socket",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/shelf_web_socket-0.2.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_web_socket-0.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/tadaspetraitis/resources/Support/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///C:/Coding/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "1.11"
     },
     {
       "name": "source_gen",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/source_gen-0.9.8",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/source_gen-0.9.8",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "source_span",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0-nullsafety.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0-nullsafety.2",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.10.0-nullsafety.2",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-2.1.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "stream_transform",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/stream_transform-1.2.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/stream_transform-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
     {
       "name": "string_scanner",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "term_glyph",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0-nullsafety.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19-nullsafety.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19-nullsafety.2",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "timing",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/timing-0.1.1+2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/timing-0.1.1+2",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.0-nullsafety.3",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "universal_html",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/universal_html-1.2.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/universal_html-1.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
     {
       "name": "universal_io",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/universal_io-1.0.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/universal_io-1.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     },
     {
       "name": "url_launcher",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.5.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.5.0",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "url_launcher_linux",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+1",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "url_launcher_macos",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+7",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+7",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "url_launcher_platform_interface",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.7",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_platform_interface-1.0.7",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "url_launcher_web",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.3",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.0-nullsafety.3",
       "packageUri": "lib/",
       "languageVersion": "2.10"
     },
     {
       "name": "watcher",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/watcher-0.9.7+15",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/watcher-0.9.7+15",
       "packageUri": "lib/",
       "languageVersion": "2.2"
     },
     {
       "name": "web_socket_channel",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/web_socket_channel-1.1.0",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/web_socket_channel-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "yaml",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/yaml-2.2.1",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/yaml-2.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.4"
     },
     {
       "name": "zone_local",
-      "rootUri": "file:///Users/tadaspetraitis/.pub-cache/hosted/pub.dartlang.org/zone_local-0.1.2",
+      "rootUri": "file:///C:/Coding/flutter/.pub-cache/hosted/pub.dartlang.org/zone_local-0.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.6"
     },
@@ -494,7 +494,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-02-15T01:41:35.346794Z",
+  "generated": "2021-02-15T02:03:27.112503Z",
   "generator": "pub",
-  "generatorVersion": "2.10.4"
+  "generatorVersion": "2.11.0-213.1.beta"
 }
